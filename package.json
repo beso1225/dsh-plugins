@@ -1,0 +1,29 @@
+{
+  "name": "dsh-plugins",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@12.14.0",
+  "engines": {
+    "node": ">=24.22.1"
+  },
+  "scripts": {
+    "build": "pnpm -r --parallel run build",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "oxlint packages scripts vitest.config.ts",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "pack:check": "pnpm -r --parallel run pack:check",
+    "check": "pnpm format:check && pnpm lint && pnpm typecheck && pnpm test && pnpm build && pnpm pack:check"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.5",
+    "@types/react": "~18.3.1",
+    "esbuild": "0.28.2",
+    "oxlint": "1.89.0",
+    "prettier": "3.9.10",
+    "typescript": "7.0.2",
+    "vitest": "5.0.5"
+  }
+}

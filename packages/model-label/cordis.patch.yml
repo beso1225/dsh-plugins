@@ -1,0 +1,8 @@
+# Mount the model-label bundle in any DSH profile that installs this package.
+#
+# Defaults live in the Host Config schema (showProvider: true, presets:
+# ["deepseek-1017"], badges: the OpenCode Go 1017 rule). A profile patch can
+# extend `badges` without restating the presets; see the package README.
+- insert:
+    - id: model-label
+      name: '@beso1225/dsh-model-label'
