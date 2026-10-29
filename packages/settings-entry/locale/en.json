@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Settings Entry",
+    "description": "Adds a direct Settings control to the sidebar foot so the settings dialog opens without going through the account menu."
+  }
+}

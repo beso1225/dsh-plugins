@@ -1,0 +1,8 @@
+# Mount the settings-entry bundle in any DSH profile that installs this package.
+#
+# The row adds one direct Settings control to the sidebar foot, above the
+# shipped account/More launcher. Defaults live in the Host Config schema; see
+# the package README for row config overrides.
+- insert:
+    - id: settings-entry
+      name: '@beso1225/dsh-settings-entry'

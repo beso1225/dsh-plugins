@@ -6,9 +6,10 @@ browser entry, a `cordis.patch.yml`, display metadata, and tests.
 
 ## Plugins
 
-| Package                                                       | What it does                                                                                           | DSH                   |
-| ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | --------------------- |
-| [`@beso1225/dsh-model-label`](packages/model-label/README.md) | Shows the provider beside the composer model name and adds configurable release badges such as `1017`. | `>=0.2.1-rc.3 <0.3.0` |
+| Package                                                             | What it does                                                                                           | DSH                   |
+| ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | --------------------- |
+| [`@beso1225/dsh-model-label`](packages/model-label/README.md)       | Shows the provider beside the composer model name and adds configurable release badges such as `1017`. | `>=0.2.1-rc.3 <0.3.0` |
+| [`@beso1225/dsh-settings-entry`](packages/settings-entry/README.md) | Adds a direct Settings row at the sidebar foot beside the account menu.                                | `>=0.2.1-rc.3 <0.3.0` |
 
 ## Why this layout
 
